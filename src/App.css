@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(https://fondosmil.com/fondo/27741.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.formLog {
+  font-family: fantasy;
+  margin: 2%;
+}
+.formLog div {
+  margin: 20px;
+}
+.linkRegister {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 425px) {
+  .formLog div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .formLog div input {
+    max-width: 350px;
+  }
+}
+
+.cartaCarro{
+  position: fixed;
+  top: 0; 
+  right: 0; 
+  z-index: 999;
+}
+
+.card{
+  border-radius: 10px;
+  background: #ffffff9c;
+
+}
+
+.card-body{
+  background: #ffffff67;
+  border-radius: 10px;
+color: white;
+}
